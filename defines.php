@@ -1,0 +1,31 @@
+<?php
+	include_once __DIR__ . '/config.php';
+	$_def_general_url = env('APP_NAME', 'kita-app');
+	$_def_general_url_id = 1;
+	$_def_general_server = env('APP_SERVER_URL', 'http://localhost:8000/app_srv/');
+	$_def_general_server_id = 4;
+	$_def_general_fehler = 'Fehler';
+	$_def_general_fehler_id = 10;
+	$_def_general_client = env('APP_CLIENT_URL', 'http://localhost:8000/');
+	$_def_general_client_id = 11;
+	$_def_general_phone = env('APP_PHONE', '+49000000000');
+	$_def_general_phone_id = 12;
+	$_def_general_admin_usrids = env('ADMIN_USER_IDS', '1');
+	$_def_general_admin_usrids_id = 13;
+	$_def_general_anzahl_kinder = 14;
+	$_def_general_anzahl_kinder_id = 14;
+	$_def_login_incorrect = 'falsche Emailadresse oder falsches Passwort.<br><a href="formular.php?m_id=2">Passwort Vergessen</a> ?';
+	$_def_login_incorrect_id = 2;
+	$_def_login_locked = 'Login gesperrt. Bitte Administrator kontaktieren.';
+	$_def_login_locked_id = 3;
+	$_def_login_pwr_emailgesendet = 'Falls diese Email-Adresse im System hinterlegt ist, wurde soeben eine Nachricht mit einem Link zum zurr&uuml;cksetzen deines Passworts versendet. (Bitte kontrolliere auch den Spam Ordner)';
+	$_def_login_pwr_emailgesendet_id = 8;
+	$_def_login_pwr_ok = 'Dein Passwort wurde erfolgreich neu gesetzt.<br>Du kannst dich jetzt einloggen...';
+	$_def_login_pwr_ok_id = 9;
+	$_def_absencereason_krankheit = 'Krankheit';
+	$_def_absencereason_krankheit_id = 5;
+	$_def_absencereason_urlaub = 'Urlaub';
+	$_def_absencereason_urlaub_id = 6;
+	$_def_absencereason_personalmangel = 'Personalmangel';
+	$_def_absencereason_personalmangel_id = 7;
+?>

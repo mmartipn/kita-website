@@ -1,0 +1,33 @@
+# Lokale Konfiguration mit Zugangsdaten
+.env
+
+# Laufzeit-Logs und Debugausgaben
+*.log
+log.txt
+logError.txt
+app_srv/log.txt
+app_srv/*.txt
+
+# Hochgeladene Dateien (Dokumente, Anhaenge, Bilder) - nur Ordnerstruktur wird versioniert
+uploads/*
+!uploads/app/
+!uploads/doc/
+!uploads/img/
+uploads/app/*
+uploads/doc/*
+uploads/img/*
+!uploads/**/.gitkeep
+
+# Datenbank-Exporte und Backups
+*.sql.gz
+*.dump
+*.bak
+*_bu*/
+backup/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+.DS_Store
